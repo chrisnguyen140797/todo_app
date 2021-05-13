@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Launch",
+        "args": ["get", "washing"],
+        "program": "${workspaceFolder}/target/debug/todo_app",
+        "windows": {
+          "program": "${workspaceFolder}/target/debug/todo_app.exe"
+        },
+        "cwd": "${workspaceFolder}",
+        "stopOnEntry": false,
+        "sourceLanguages": [
+          "rust"
+        ]
+      }
+    ]
+  }
+  
